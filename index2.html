@@ -1,0 +1,147 @@
+<style>
+    svg {
+        
+    }
+    .drop{
+        
+        fill: #2a96ed;
+    }
+    .ripple  {
+        fill: none;
+        stroke: #2a96ed;
+        stroke-width: 1.5px;
+        
+    }
+</style>
+
+<div class="wrap">
+    <div class="">
+        <svg class="" viewBox="0 0 60 60" version="1.1"xmlns="http://www.w3.org/2000/svg">
+            <circle class="drop"  cx="30" cy="10" r="3">
+                
+                    <animate attributeName="cy"
+                             repeatCount="indefinite" 
+                             begin="0s" 
+                             dur="1.5s"
+                             values="10; 28; 35; 35; 35"
+                             keyTimes="0; 0.1; 0.2; 0.9; 1"  
+                             from="10" 
+                             to="35"/>
+                    <animate attributeName="fill"
+                            repeatCount="indefinite" 
+                            begin="0s" 
+                            dur="1.5s"
+                            values="#2a96ed; #2a96ed; #fff; #fff; #fff"
+                            keyTimes="0; 0.1; 0.2; 0.9; 1"  
+                            from="#2a96ed" 
+                            to="#fff"/>
+                    <animate attributeName="opacity"
+                            repeatCount="indefinite" 
+                            begin="0s" 
+                            dur="1.5s"
+                            values="1; 0; 0; 0; 0"
+                            keyTimes="0; 0.1; 0.2; 0.9; 1" />
+            </circle>
+            <circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+                    <animate attributeName="r"
+                             repeatCount="indefinite" 
+                             begin=".8s" 
+                             dur="1.5s"
+                             values="5; 14; 18; 18; 18"
+                             keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                             from="5" 
+                             to="18"/>
+                    <animate attributeName="stroke"
+                             repeatCount="indefinite" 
+                             begin=".8s"
+                             dur="1.5s" 
+                             from="#2a96ed" 
+                             to="#fff"/>
+            </circle>
+            <circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+                    <animate attributeName="r"
+                             repeatCount="indefinite" 
+                             begin="1.1s" 
+                             dur="1.5s"
+                             values="5; 14; 18; 18; 18"
+                             keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                             from="5" 
+                             to="18"/>
+                    <animate attributeName="stroke"
+                             repeatCount="indefinite" 
+                             begin="1.1s" 
+                             dur="1.5s" 
+                             from="#2a96ed" 
+                             to="#fff"/>
+            </circle>
+            <circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+                    <animate attributeName="r"
+                             repeatCount="indefinite" 
+                             begin="1.4s" 
+                             dur="1.5s"
+                             values="5; 14; 18; 18; 18"
+                             keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                             from="5" 
+                             to="18"/>
+                    <animate attributeName="stroke"
+                             repeatCount="indefinite" 
+                             begin="1.4s" 
+                             dur="1.5s" 
+                             from="#2a96ed" 
+                             to="#fff"/>
+            </circle>
+        </svg>
+    </div>
+  </div>
+  <!--
+<circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+        <animate attributeName="r"
+                 repeatCount="indefinite" 
+                 begin="0s" 
+                 dur="1.5s"
+                 values="5; 14; 18; 18; 18"
+                 keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                 from="5" 
+                 to="18"/>
+        <animate attributeName="stroke"
+                 repeatCount="indefinite" 
+                 begin="0s" 
+                 dur="1.5s" 
+                 from="#2a96ed" 
+                 to="#fff"/>
+                </circle>
+<circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+        <animate attributeName="r"
+                    repeatCount="indefinite" 
+                    begin=".3s" 
+                    dur="1.5s"
+                    values="5; 14; 18; 18; 18"
+                    keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                    from="5" 
+                    to="18"/>
+        <animate attributeName="stroke"
+                    repeatCount="indefinite" 
+                    begin=".3s" 
+                    dur="1.5s" 
+                    from="#2a96ed" 
+                    to="#fff"/>
+</circle>
+<circle class="ripple ripple-svg" style="transform: rotateX(60deg);" cx="30" cy="50">
+        <animate attributeName="r"
+                    repeatCount="indefinite" 
+                    begin=".6s" 
+                    dur="1.5s"
+                    values="5; 14; 18; 18; 18"
+                    keyTimes="0; 0.3; 0.6; 0.9; 1"  
+                    from="5" 
+                    to="18"/>
+        <animate attributeName="stroke"
+                    repeatCount="indefinite" 
+                    begin=".6s" 
+                    dur="1.5s" 
+                    from="#2a96ed" 
+                    to="#fff"/>
+</circle>
+
+  -->
+  
